@@ -26,7 +26,7 @@ export const useFetchQuestion = (index,level) => {
         //   (data) => data.q
         // );
 
-        const aa = await getServerData(`http://localhost:5000/api/${level}`, (data) => data.q)
+        const aa = await getServerData(https://mern-stack-quiz-api2.vercel.app/api/${level}`, (data) => data.q)
        const { questions, answers } = aa[index]
 
         if (questions.length > 0) {
