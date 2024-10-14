@@ -154,7 +154,8 @@ div.electric span {
         margin-right: 15px;
     }
     div.electric {
-        font-size: 7px;
+        font-size: 9px;
+        padding: 24px 100px 41px 51px;
     }
     .start .btn{
         font-size: 19px;
