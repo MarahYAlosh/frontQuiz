@@ -22,7 +22,7 @@ export const usePublishResult = (resultData) => {
     try {
       if (result !== [] && !username) throw new Error("Couldn't get Result");
       const rr = await postServerData(
-        "http://localhost:5000/api/result",
+        "https://mern-stack-quiz-api2.vercel.app/api/result",
         resultData,
         (data) => data.r
       );
