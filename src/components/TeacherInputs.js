@@ -45,7 +45,7 @@ export const TeacherInputs = () => {
       console.log("df");
       console.log(allQuestion);
       console.log(allAnswer);
-      axios.post(`http://localhost:5000/api/${state.level}`, {
+      axios.post(`https://mern-stack-quiz-api2.vercel.app/api/${state.level}`, {
         allQuestion,
         allAnswer,
       });
