@@ -15,7 +15,7 @@ export const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/login", { email, password })
+      .post("https://mern-stack-quiz-api2.vercel.app/login", { email, password })
       .then((res) => {
         if (res.data.status === "Success") {
           if (res.data.role === "admin") {
