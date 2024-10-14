@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/frontQuiz/static/css/main.2181061c.css",
+    "main.js": "/frontQuiz/static/js/main.6c415824.js",
+    "static/media/reg.png": "/frontQuiz/static/media/reg.33b0e491fd18657ac630.png",
+    "static/media/output-onlinepngtools (13).png": "/frontQuiz/static/media/output-onlinepngtools (13).99602426392e14e0dc4f.png",
+    "static/media/output-onlinepngtools (11).png": "/frontQuiz/static/media/output-onlinepngtools (11).34c8c1dd7302d99f923e.png",
+    "static/media/output-onlinepngtools (12).png": "/frontQuiz/static/media/output-onlinepngtools (12).1b51d9e68d8fc5c0aa75.png",
+    "static/media/bglo.png": "/frontQuiz/static/media/bglo.c556e275e979e82e952a.png",
+    "static/media/login.png": "/frontQuiz/static/media/login.098b5afa18fe67f649d6.png",
+    "static/media/output-onlinepngtools (7).png": "/frontQuiz/static/media/output-onlinepngtools (7).bf9f89cc84dbfeda673a.png",
+    "static/media/bgRes.png": "/frontQuiz/static/media/bgRes.c28316e5f13a56b99fbc.png",
+    "static/media/output-onlinepngtools (6).png": "/frontQuiz/static/media/output-onlinepngtools (6).24807826ff031cc0a385.png",
+    "static/media/output-onlinepngtools (5).png": "/frontQuiz/static/media/output-onlinepngtools (5).f2a4c60f32066243be70.png",
+    "static/media/teacher.png": "/frontQuiz/static/media/teacher.9deaf2de35f5bc15d358.png",
+    "static/media/ففف": "/frontQuiz/static/media/ففف.3d36faf6e72297bed5b0",
+    "static/media/onlineEdu.png": "/frontQuiz/static/media/onlineEdu.ede508885f4b17d38fbc.png",
+    "static/media/lock.png": "/frontQuiz/static/media/lock.82828f62d1ade6e8c2b9.png",
+    "index.html": "/frontQuiz/index.html",
+    "main.2181061c.css.map": "/frontQuiz/static/css/main.2181061c.css.map",
+    "main.6c415824.js.map": "/frontQuiz/static/js/main.6c415824.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2181061c.css",
+    "static/js/main.6c415824.js"
+  ]
+}
