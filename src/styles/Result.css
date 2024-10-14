@@ -1,0 +1,85 @@
+
+.containerResult{
+    position: relative;
+    background-image: url('../img/bgRes.png');
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    direction: rtl;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    padding: 60px 140px;
+    gap: 1em;
+    box-shadow: inset 2px 1px 20px 0px #77777770;
+}
+
+.container .flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container .flex span {
+    font-size: 19px;
+    color: #333
+}
+
+.container .flex span.achive {
+    font-weight: bold;
+    color: #ff004f;
+}
+
+table {
+    width: 100%;
+}
+
+.table-header {
+    color: #cecece;
+    font-size: 1.1em;
+    text-align: center;
+    background: #212121;
+    padding: 18px 0;
+}
+
+.table-body {
+    font-size: 1.1em;
+    text-align: center;
+    /* color: #cecece; */
+    background: #d8d8d8;
+    padding: 18px 0;
+}
+
+.table-header > tr > td{
+    border: 1px solid #faff5a;   
+}
+
+
+@media (max-width:470px){
+    .flex-center{
+        padding: 0;
+    }
+    .containerResult {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .containerResult .title{
+        font-size: 32px;
+    }
+    .containerResult .flex span{
+        font-size: 23px;
+        margin: 2px 10px
+    }
+    .containerResult .btn{
+        font-size: 18px;
+        padding: 0.2px 1.4px;
+    }
+}
