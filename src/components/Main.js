@@ -34,7 +34,7 @@ export const Main = () => {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getName").then(({ data }) => {
+    axios.get("https://mern-stack-quiz-api2.vercel.app/getName").then(({ data }) => {
       setdetailStudent(data);
 
       // console.log(detailStudent);
@@ -60,7 +60,7 @@ export const Main = () => {
     //rows.filter(({ brands }) => wantedBrands.includes(brands)
 
     axios
-      .get("http://localhost:5000")
+      .get("https://mern-stack-quiz-api2.vercel.app")
       .then((res) => {
         if (res.data === "Success") {
           setSuc("Successed OK");
