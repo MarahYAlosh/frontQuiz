@@ -12,7 +12,7 @@ export const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:5000/register", { name, email, password })
+      .post("https://mern-stack-quiz-api2.vercel.app/register", { name, email, password })
       .then((res) => navigate("/login"))
       .catch((err) => alert(err));
   };
