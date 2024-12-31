@@ -1,0 +1,208 @@
+.containerMain{
+    position: relative;
+    background-image: url('../img/output-onlinepngtools\ \(5\).png');
+    background-size: cover;
+    background-repeat: round;
+    height: 910px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 720px;
+    height: 755px;
+}
+
+
+.containerMain ol li{
+    font-size: 14px;
+    color: #cecece;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    
+   
+}
+.Toastify__toast-container--top-right{
+font-size: 17px;
+}
+.start.textt{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start .btn{
+    padding: .2em 1.7em;
+    border: none;
+    border-radius: .1em;
+    font-size: 25px;
+    color: #202020;
+    text-decoration: none;
+    background-color: #F56692;
+    transition: 0.3s;
+}
+.start .btn:hover{
+    transform: scale(1.1);
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#form .userid{
+    padding: .7em 2em;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+
+.cont h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.cont h2{
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.bubbleCont{
+    margin-top: 50px;
+
+}
+
+@font-face {
+    font-family: 'SequentialistBB';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_1_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SequentialistBB';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+    font-style: italic;
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: SequentialistBB, cursive;
+    font-size: 2.5vw;
+    margin: 0;
+}
+.section {
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.section:hover{
+  
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+/* .section {
+    padding: 3rem;
+} */
+
+
+div.bubble {
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 0;
+    box-sizing: content-box;
+    line-height: 1;
+}
+
+div.electric {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/electric.svg);
+    width: 132%;
+    font-size: 14px;
+    font-style: italic;
+    padding: 4% 14% 8% 0%;
+}
+div.electric span {
+    display: block;
+    font-size: 3vw;
+    font-weight: bold;
+}
+@media (max-width:470px){
+    .containerMain .cont{
+        width: max-content;
+    }
+    .containerMain .cont .title {
+        font-size: 35px;
+    }
+    .containerMain .cont h2{
+        font-size: 22px;
+        margin-top: 40px;
+        margin-right: 15px;
+    }
+    div.electric {
+        font-size: 7px;
+    }
+    .start .btn{
+        font-size: 19px;
+    }
+
+}
+
+
+
+
+
+/* التصميم الأساسي */
+.containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .cont {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .bubbleCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+  }
+  
+  .bubble {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .containerMain {
+      padding: 10px;
+    }
+  
+    .bubble {
+      min-width: 100%;
+    }
+  }
+  

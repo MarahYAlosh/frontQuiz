@@ -1,0 +1,147 @@
+.containerResult {
+    position: relative;
+    background-image: url('../img/bgRes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    direction: rtl;
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px 20px;
+    gap: 0.3em;
+    box-shadow: inset 2px 1px 20px 0px #77777770;
+    border-radius: 10px;
+}
+
+.container .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.container .flex span {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.container .flex span.bold {
+    font-weight: bold;
+}
+
+.start {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #F56692;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: #212121;
+    color: #cecece;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.table-body {
+    font-size: 1rem;
+    text-align: center;
+    background: #d8d8d8;
+    padding: 10px 0;
+}
+
+.table-header > tr > td {
+    border: 1px solid #faff5a;
+}
+
+/* الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .flex-center {
+        padding: 20px;
+        gap: 0.8em;
+    }
+
+    .container .flex span {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+/* الشاشات الصغيرة جدًا */
+@media (max-width: 480px) {
+    .containerResult {
+        background-size: contain;
+    }
+
+    .flex-center {
+        padding: 10px;
+    }
+
+    .containerResult .title {
+        font-size: 1.5rem;
+    }
+
+    .containerResult .flex span {
+        font-size: 0.9rem;
+        margin: 2px 5px;
+    }
+
+    .containerResult .btn {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}
+
+.container .flex span {
+    font-size: calc(1rem + 0.5vw);
+}
+.btn {
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
